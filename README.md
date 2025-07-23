@@ -101,20 +101,5 @@ Quest-JavaScript-Intermediário/
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nielson-gomes-29a8a2349)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nielsongomesdev)
 
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## 🏆 Agradecimentos
-
-- Quest pela oportunidade de desenvolvimento
-- Comunidade dev pela inspiração constante
-- Contribuidores e feedbacks recebidos
-
----
 
 ⭐ **Se este projeto foi útil para você, considere dar uma estrela no repositório!**
