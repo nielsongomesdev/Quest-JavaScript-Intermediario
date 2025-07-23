@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: url("../imagens/bg-repeat.jpg");
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 900px;
+  gap: 60px;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  flex: 1;
+}
+
+.informacoes .titulo {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.informacoes .titulo span {
+  display: block;
+}
+
+.paragrafo {
+  font-size: 15px;
+  font-weight: 400;
+  width: 300px;
+}
+
+.formulario {
+  flex: 1;
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.formulario input::placeholder,
+.formulario textarea::placeholder {
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.aviso-campos {
+  font-size: 15px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.botao {
+  width: 100%;
+  padding: 15px;
+  background-color: #3CCC87;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #10a058;
+}
+
+.esconder-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.mensagem-erro {
+  color: #F52E2E;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mensagem-erro.ativo {
+  opacity: 1;
+}
+
+.sucesso {
+  border: 1px solid #00C22B !important;
+}
+
+.erro {
+  border: 1px solid #F52E2E !important;
+}
