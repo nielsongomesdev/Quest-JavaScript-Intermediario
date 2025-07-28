@@ -1,0 +1,176 @@
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    width: 95%;
+    padding: 20px 0;
+  }
+
+  .informacoes {
+    text-align: center;
+    align-items: center;
+  }
+
+  .informacoes .titulo {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .paragrafo {
+    width: 100%;
+    max-width: 400px;
+    font-size: 14px;
+  }
+
+  .formulario {
+    padding: 25px;
+    gap: 12px;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .botao {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+    height: auto;
+    min-height: 100vh;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+
+  .container {
+    width: 100%;
+    gap: 20px;
+    max-width: none;
+  }
+
+  .informacoes {
+    padding: 0 10px;
+  }
+
+  .informacoes .titulo {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .paragrafo {
+    font-size: 13px;
+    line-height: 1.4;
+    width: 100%;
+    max-width: none;
+  }
+
+  .formulario {
+    padding: 20px 15px;
+    gap: 10px;
+    margin: 0 10px;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+
+  .formulario textarea {
+    min-height: 80px;
+  }
+
+  .aviso-campos {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .botao {
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+  }
+
+  .mensagem-erro {
+    font-size: 11px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    gap: 15px;
+  }
+
+  .informacoes .titulo {
+    font-size: 14px;
+  }
+
+  .paragrafo {
+    font-size: 12px;
+  }
+
+  .formulario {
+    padding: 15px 10px;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    padding: 8px;
+    font-size: 11px;
+  }
+
+  .botao {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .mensagem-erro {
+    font-size: 10px;
+  }
+
+  .aviso-campos {
+    font-size: 11px;
+  }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  body {
+    padding-top: 10px;
+  }
+
+  .container {
+    gap: 15px;
+  }
+
+  .informacoes .titulo {
+    margin-bottom: 5px;
+  }
+
+  .formulario {
+    padding: 15px;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .formulario input,
+  .formulario textarea,
+  .botao {
+    min-height: 44px; 
+  }
+
+  .botao:active {
+    background-color: #2ab371;
+    transform: scale(0.98);
+  }
+}
